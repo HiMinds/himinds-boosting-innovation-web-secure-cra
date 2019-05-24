@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+node-certbot/node_modules
+hn-secure-deploy/node_modules
+hn-app/node_modules
