@@ -12,7 +12,7 @@ import axios from 'axios';
 
 function App() {
 
-  const HACKER_NEWS_URL = 'http://hn.algolia.com/api/v1/search?query=';
+  const HACKER_NEWS_URL = 'https://hn.algolia.com/api/v1/search?query=';
   const [data, setData] = useState({ hits: [] });
   const [query, setQuery] = useState(HACKER_NEWS_URL + "a%2Fbtesting");
   const [url, setUrl] = useState(HACKER_NEWS_URL + "a%2Fbtesting");
