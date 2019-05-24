@@ -56,7 +56,7 @@ function App() {
   return (
     <div>
       <Divider horizontal>
-        <Header as='h1' style={style.h1}>
+        <Header as='h2' style={style.h1}>
           <Icon name='newspaper outline' />
           Hacker News search
       </Header>
