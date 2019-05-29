@@ -24,3 +24,5 @@ app.get('/', function(req, res) {
 const httpsServer = https.createServer(options, app);
 //const httpServer = http.createServer(app);
 
+server.listen(process.env.SERVER_PORT || 5000);
+
